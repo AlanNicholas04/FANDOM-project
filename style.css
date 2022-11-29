@@ -1,0 +1,35 @@
+body {
+  background-color: seagreen
+}
+
+#top {
+  background-color: #a2baf1
+}
+
+#content{
+  background-color: ghostwhite
+}
+
+#footer{
+  background-color: #a2baf1
+}
+
+a:hover {
+  background-color: seagreen;
+}
+
+#elemental_awakening:hover {
+  background-color: gold;
+}
+
+#head{
+  height: 100px
+}
+
+.container{
+  color: black
+}
+
+#font{
+  Papyrus
+}
