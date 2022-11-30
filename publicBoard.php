@@ -29,7 +29,7 @@
       
       <h3>Fan Board</h3>
       <p>Welcome to the fan board! you can post your thoughts and opinions of my project on here, just please be sure to be respectful</p>
-      
+      <!-- Note: if you are reading this, it probably means that i never found out how to finish the public board page. it was a little too ambitious a task for me to take on by myself, especially with the limited expirience i have -->
       <br>
 
       <div class="row"> <!-- row3 starts here lol -->

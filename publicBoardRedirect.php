@@ -1,5 +1,5 @@
 <?php
 
 
-header("Location: /publicBoard.php?fname=$fname&Message=$message&");
+//header("Location: /publicBoard.php?fname=$fname&Message=$message&");
 ?>
