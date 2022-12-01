@@ -38,3 +38,20 @@ a:hover {
   font-size: 100px;
   font-family: 
 }
+
+#font:hover {
+  background-color: yellow;
+}
+
+h4:hover {
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  25% { color: green; }
+  50% { color: blue; }
+  75% { color: #8801c6; }
+  100% { color: #f207c0; }
+}
+

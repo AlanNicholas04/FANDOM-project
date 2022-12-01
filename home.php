@@ -25,7 +25,7 @@
 
  <div class="row" id="content"> <!--   start:: top row -->
     <div class="col"><!--   start:: col -->
-    <h3>Welcome to the elemental awakening wiki</h3>
+    <h4>Welcome to the elemental awakening wiki</h4>
       <p>Hello! thank you for taking the time out of your day to look at this webpage I made.</p>
     <h2>what is <div id="elemental_awakening">elemental awakening?</div></h2>
       <p>Elemental awakening is a small RPG (or role playing game) project that I have been writing for a few years. Elemental Awakning was originally supposed to be a game on Roblox, but some plans for that fell through so now its a D&D (or dungeons and dragons) campaign/world setting.</p>

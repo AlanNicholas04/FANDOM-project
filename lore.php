@@ -25,7 +25,19 @@
 
  <div class="row" id="content"> <!--   start:: top row -->
     <div class="col"><!--   start:: col -->
-      <h3>Lore</h3>
+
+
+<br>
+
+
+    <div class="container">
+  <div class="row">
+    <div class="col order-last">
+      <img src="/images/download2.jpg">
+    </div>
+    <div class="col">
+
+<h3>Lore</h3>
       <p>Welcome to the lore menu! you can click on the pages listed below to learn more about them</p>
     <ul>
       <li><a href=/pages/factions.php>factions</a></li>
@@ -34,6 +46,16 @@
       <li><a href=/pages/items.php>Magical items</a></li>
       <li><a href=/pages/events.php>events</a></li>
       <li><a href=/pages/laws.php>natural laws</a></li>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+      
+      
     </div> <!--   end:: col -->
   </div> <!--   end:: top row -->
   

@@ -27,9 +27,8 @@
 
  <div class="row" id="content"> <!--   start:: top row -->
     <div class="col"><!--   start:: col -->
-      <div class="alert alert-warning" role="alert">
-  Please click the home button to prove that you are not a robot
-</div>
+      <!-- Content goes here -->  <h4>wowow testing wowow</h4>
+      <br><br>
     </div> <!--   end:: col -->
   </div> <!--   end:: top row -->
   
