@@ -35,26 +35,23 @@
 //countdown end date
 var countDownDate = new Date("feb 4, 2023 11:11:25").getTime();
 
-// Update the count down every 1 second
+// Update the count down
 var x = setInterval(function() {
 
-  // Get today's date and time
+  // find today's date
   var now = new Date().getTime();
 
-  // Find the distance between now and the count down date
   var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds
+  // Time calculations
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
-  // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "<img src='/images/taco.jpg'>";
@@ -63,11 +60,38 @@ var x = setInterval(function() {
 </script>
 
       <br>
-      <p>After working on making this game possible, i am excited to announce that the first game in this setting will be held on February 6th 2023. Make sure to be on thi spage once the countdown ends for a surprise :) </p>
+      <p>After working on making this game possible, i am excited to announce that the first game in this setting will be held on February 6th 2023. Make sure to be on this spage once the countdown ends for a surprise :) </p>
 
 
 <h4>Development timeline</h4>
-      <p>In 2019 i got bored and started writing up a small idea for a fantasy gae setting.</p>
+      <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Year:</th>
+      <th scope="col">progress</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">2019</th>
+      <td>I got bored, and started writing the framework for the world setting. back then, this world setting looked incredibly different than it does now, and it was mostly just a lord of the rings rip off.</td>
+    </tr>
+    <tr>
+      <th scope="row">2020</th>
+      <td>During the peak of the covid 19 lockdown, i had some time to start thnking more about the direction the project would go in, and I did some much needed polishing to make the world more understandale. </td>
+    </tr>
+    <tr>
+      <th scope="row">2021</th>
+      <td>In 2021 i got a few friends to help me write parts of the story for the project, and we even tried to make this into a game on Roblox (we failed miserably at that though).</td>
+    </tr>
+    <th scope="row">2022</th>
+      <td>In 2022 i added some of the final touches to the project, and decided for it to be a dungeons and dragons world setting instead of a game.</td>
+    </tr>
+        <th scope="row">2023</th>
+      <td>In 2023 I will host the first dungeons and dragons game in this setting.</td>
+    </tr>
+  </tbody>
+</table>
     </div> <!--   end:: col -->
   </div> <!--   end:: top row -->
   
